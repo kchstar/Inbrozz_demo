@@ -28,11 +28,22 @@
 # git 명령어 
     git branch -v
     git 
+# coding중간에 commit 순서
+    git add .
+    git commit -m 'commit '
+    git push -u origin main
+    
 
 # warning: in the working copy of 'git_command.md', LF will be replaced by CRLF the next time Git touches it
     LF(Line-Feed) 커서 위치는 그대로 두고 종이의 한라인 위로 올리는 동작 
     CR(Carriage-Return) 커서위치를 맨앞으로 옮기는 동작
     CRLF(Carriage-Return + Line-Feed) 두 동작을 합쳐서 커서를 다음라인 맨앞으로 옮겨주는 동작
         $ git config --global core.autocflf true
-        
+
 # error: remote origin already exists.
+
+# Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   ../react-hooks-demo (modified content)
