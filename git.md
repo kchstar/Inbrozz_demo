@@ -5,33 +5,33 @@
 # REMOTE 경로 재 설정
     $ git remote set-url origin https://github.com/kchair777/inbrozz_demo.git
 
-    git add * / git add --all / git add . 
-    git commit -m "first commit"[Git] 로컬 저장소에 Commit하기
+    $ git add * / git add --all / git add . 
+    $ git commit -m "first commit"[Git] 로컬 저장소에 Commit하기
     [Git] 로컬 저장소에 Commit하기
 
-    git branch 
+    $ git branch 
         ex) main
         ex) origin 
-    git remote add origin https://github.com/kchstar/react-hooks-demo_2.git
+    $ git remote add origin https://github.com/kchstar/react-hooks-demo_2.git
 
-    git push -u origin main (x)
-    git push --set-upstream main main
+    $ git push -u origin main (x)
+    $ git push --set-upstream main main
 
-    git log (반영사항 확인)
+    $ git log (반영사항 확인)
         git log나가기 = Q
-    git reset a6f30a --hard (commit:6자리 / 이전상태로 되돌리기)
+    $ git reset a6f30a --hard (commit:6자리 / 이전상태로 되돌리기)
 
 # (use "git add <file>..." to include in what will be committed)
     ex) git add * (all)
     ex) git add README.md
 
 # git 명령어 
-    git branch -v
-    git 
+    $ git branch -v
+    $ git 
 # coding중간에 commit 순서
-    git add .
-    git commit -m 'commit '
-    git push -u origin main
+    $ git add .
+    $ git commit -m 'commit '
+    $ git push -u origin main
     
 
 # warning: in the working copy of 'git_command.md', LF will be replaced by CRLF the next time Git touches it
@@ -53,4 +53,4 @@
     $ git add .
     $ git commit -m '1st'
     $ git push -u origin main
-    
+
