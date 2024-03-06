@@ -49,3 +49,7 @@
     $ git push -u origin main
 
 # error: remote origin already exists.
+
+# warning: adding embedded git repository: react-hooks-app_movie
+    $ git rm --cached react-hooks-app_movie
+    
