@@ -36,8 +36,6 @@
     CRLF(Carriage-Return + Line-Feed) 두 동작을 합쳐서 커서를 다음라인 맨앞으로 옮겨주는 동작
         $ git config --global core.autocflf true
 
-# error: remote origin already exists.
-
 # Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
@@ -50,3 +48,4 @@
     $ git commit -m '1st'
     $ git push -u origin main
 
+# error: remote origin already exists.
