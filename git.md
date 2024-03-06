@@ -4,7 +4,6 @@
     git config --global user.email "kchstar@outlook.com"
 # REMOTE 경로 재 설정
     $ git remote set-url origin https://github.com/kchair777/inbrozz_demo.git
-
     $ git add * / git add --all / git add . 
     $ git commit -m "first commit"[Git] 로컬 저장소에 Commit하기
     [Git] 로컬 저장소에 Commit하기
@@ -13,10 +12,8 @@
         ex) main
         ex) origin 
     $ git remote add origin https://github.com/kchstar/react-hooks-demo_2.git
-
     $ git push -u origin main (x)
     $ git push --set-upstream main main
-
     $ git log (반영사항 확인)
         git log나가기 = Q
     $ git reset a6f30a --hard (commit:6자리 / 이전상태로 되돌리기)
@@ -31,8 +28,7 @@
 # coding중간에 commit 순서
     $ git add .
     $ git commit -m 'commit '
-    $ git push -u origin main
-    
+    $ git push -u origin main    
 
 # warning: in the working copy of 'git_command.md', LF will be replaced by CRLF the next time Git touches it
     LF(Line-Feed) 커서 위치는 그대로 두고 종이의 한라인 위로 올리는 동작 
