@@ -47,3 +47,10 @@
   (use "git restore <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
         modified:   ../react-hooks-demo (modified content)
+    $ ls
+    $ rm -rf .git 
+    $ git status
+    $ git add .
+    $ git commit -m '1st'
+    $ git push -u origin main
+    
